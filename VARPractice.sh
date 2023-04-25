@@ -1,0 +1,16 @@
+#!/bin/bash -x
+
+VARIABLE=12
+echo $VARIABLE
+
+VARIABLE=STRING
+echo $VARIABLE
+
+read VAR1
+echo $VAR1
+
+VAR1=NOTSTRING
+echo $VAR1
+
+echo ${#VARIABLE}
+
